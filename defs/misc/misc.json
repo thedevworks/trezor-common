@@ -2,6 +2,8 @@
     {
         "name": "Lisk",
         "shortcut": "LSK",
+        "curves": ["ed25519"],
+        "default_curve": "ed25519",
         "links": {
             "Homepage": "https://lisk.io/"
         }
@@ -10,6 +12,8 @@
         "name": "Stellar",
         "notes": "In development",
         "shortcut": "XLM",
+        "curves": ["ed25519"],
+        "default_curve": "ed25519",
         "links": {
             "Homepage": "https://www.stellar.org"
         }
@@ -18,6 +22,8 @@
         "name": "Monero",
         "shortcut": "XMR",
         "notes": "In development",
+        "curves": ["ed25519"],
+        "default_curve": "ed25519",
         "links": {
             "Homepage": "https://getmonero.org"
         }
@@ -26,6 +32,8 @@
         "name": "Ripple",
         "shortcut": "XRP",
         "notes": "In development",
+        "curves": ["secp256k1", "ed25519"],
+        "default_curve": "secp256k1",
         "links": {
             "Homepage": "https://ripple.com"
         }
@@ -33,6 +41,8 @@
     {
         "name": "Cardano",
         "shortcut": "ADA",
+        "curves": ["ed25519"],
+        "default_curve": "ed25519",
         "links": {
             "Homepage": "https://www.cardano.org"
         }
@@ -40,6 +50,8 @@
     {
         "name": "Tezos",
         "shortcut": "XTZ",
+        "curves": ["ed25519", "secp256k1", "nist256p1"],
+        "default_curve": "ed25519",
         "links": {
             "Homepage": "https://tezos.com"
         }
@@ -47,6 +59,8 @@
     {
         "name": "Ontology",
         "shortcut": "ONT",
+        "curves": ["nist256p1"],
+        "default_curve": "nist256p1",
         "links": {
             "Homepage": "https://ont.io"
         }
